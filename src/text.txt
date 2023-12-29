@@ -1,0 +1,122 @@
+        {/* <li className="icon facebook">
+            <span className="tooltip">Facebook</span>
+            <span>
+              <i className="fab fa-facebook-f"></i>
+            </span>
+          </li>
+          <li className="icon twitter">
+            <span className="tooltip">Twitter</span>
+            <span>
+              <i className="fab fa-twitter"></i>
+            </span>
+          </li> */}
+
+
+          {/* <div className="social-link">
+        <a href={gitHubURL} target="_blank" rel="noopener noreferrer">
+          <button className="portfolio-button btn-social btn-github">
+            𝔾𝕚𝕥𝕙𝕦𝕓
+          </button>
+        </a>
+        <Link to="/youtube">
+          <button
+            padding="12px"
+            className="portfolio-button btn-social btn-google"
+          >
+            𝕐𝕠𝕦𝕥𝕦𝕓𝕖
+          </button>
+        </Link>
+        <Link to="/portfolio">
+          <button className="portfolio-button btn-social btn-linkedin">
+            ℙ𝕠𝕣𝕥𝕗𝕠𝕝𝕚𝕠
+          </button>
+        </Link>
+      </div> */}
+          {/* <h1>𝕂𝕒𝕓𝕚𝕣𝕦 𝕊𝕙𝕒𝕚𝕓𝕦</h1> */} */}
+      {/* <img
+        className="moon-image"
+        src="https://img.freepik.com/premium-vector/moon-vector-illustration_645658-576.jpg"
+        alt="moonpics"
+      /> */}
+      {/* <span>W乇乃 り乇√乇ﾚのｱ乇尺</span> */}
+        // const linkedInURL = "https://www.linkedin.com/in/kabiru-shaibu-a81082164/";
+  const gitHubURL = "https://github.com/kabornblack";
+
+  .portfolio-button {
+  padding: 0.5rem 1rem;
+  margin-top: 7rem;
+  background-color: black;
+  color: rgba(212, 41, 41, 0.279);
+  border: none;
+  cursor: pointer;
+  border: rgba(212, 41, 41, 0.279) solid .1rem;
+  text-shadow: 0rem .1rem 0rem white;
+}
+header h1 {
+  opacity: 1;
+  color: rgba(212, 41, 41, 0.279);
+  font-family: "McLaren", cursive;
+  font-weight: 250;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  text-shadow: 0rem .1rem 0rem white;
+}
+
+<section className="portfolio-section">
+<div className="same-value-div">
+            <div className="portfolio-box">
+              <div className="portfolio-box-text-front">
+                <h3 className="project-name">Natours</h3>
+                <p className="project-about">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  soluta delectus id incidunt sit alias,
+                </p>
+                <h3 className="project-construction">Technology</h3>
+                <p className="project-details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  soluta delectus id incidunt sit alias,
+                </p>
+                <div className="project-btn">
+                  <button className="project-live-btn">Go Live</button>
+                  <a href="#" className="project-detail-btn">
+                    Learn more &rarr;
+                  </a>
+                </div>
+                {/* <div className="portfolio-box-text-back">
+                <h3>card back</h3>
+              </div> */}
+              </div>
+              <div className="portfolio-box-img">
+                <div className="portfolio-img">
+                  <img
+                    src="./profilePic/profile.jpg"
+                    alt="home-photo"
+                    className="home-photo"
+                  />
+                  <img
+                    src="./profilePic/profile.jpg"
+                    alt="snipet-photo-1"
+                    className="snipet-photo-1"
+                  />
+
+                  <img
+                    src="./profilePic/profile.jpg"
+                    alt="snipet-photo-1"
+                    className="snipet-photo-2"
+                  />
+                  <img
+                    src="./profilePic/profile.jpg"
+                    alt="snipet-photo-1"
+                    className="snipet-photo-3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+
+
+
+          
+
+        

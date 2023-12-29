@@ -36,7 +36,7 @@ function Content() {
     <div style={containerStyle}>
       <div class="image-container">
         <img
-          src="pics/profile.jpg"
+          src="profilePic/profile.jpg"
           alt="profile pic"
           width="200"
           height="250"
@@ -52,3 +52,44 @@ function Content() {
 }
 
 export default Content;
+
+//  To split screen and make half static and halk movable
+
+function SplitLayout() {
+  return (
+    <div className="split-layout">
+      <div className="fixed-half">{/* Content for the fixed half */}</div>
+      <div className="scrollable-half">
+        {/* Content for the scrollable half */}
+      </div>
+    </div>
+  );
+}
+
+
+/* Reset some default styles to ensure consistency */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the overall container to a flex display */
+body {
+  display: flex;
+  height: 100vh; /* 100% of viewport height */
+  overflow: hidden; /* Hide any overflow on the body */
+}
+
+/* Style for the fixed half */
+.fixed-half {
+  flex: 1; /* Take up half of the available space */
+  background-color: #f0f0f0; /* Optional: Add a background color for visual separation */
+  overflow: hidden; /* Hide any overflow in the fixed half */
+}
+
+/* Style for the scrollable half */
+.scrollable-half {
+  flex: 1; /* Take up half of the available space */
+  overflow-y: auto; /* Enable vertical scrolling as needed */
+  background-color: #ffffff; /* Optional: Add a background color for visual separation */
+}
