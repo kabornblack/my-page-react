@@ -1,0 +1,103 @@
+@keyframes myColorChange {
+    20% {
+      color: rgb(205, 191, 191);
+    }
+    40% {
+      color: rgb(94, 47, 47);
+    }
+    60% {
+      color: rgb(227, 81, 81);
+    }
+    80% {
+      background-color: rgb(57, 8, 8);
+    }
+    110% {
+      background-color: red;
+    }
+  }
+  @keyframes mySlides {
+    from {
+      margin-left: 100%;
+      /* transform: translateX(100%); */
+    }
+    to {
+      margin-left: 0%;
+      /* transform: translateX(0%); */
+    }
+  }
+  @keyframes myScale {
+    50% {
+      transform: scale(0.5, 0.5);
+    }
+  }
+  @keyframes myScale1 {
+    5% {
+      transform: scale(.3, 0.3);
+    }
+    7% {
+      transform: scale(.5, 0.3);
+    }
+    10% {
+      transform: scale(.5, 0.5);
+    }
+    13% {
+      transform: scale(.5, 0.6);
+    }
+    15% {
+      transform: scale(.5, 0.6);
+    }
+    30% {
+      transform: scale(.6, 0.6);
+    }
+    40% {
+      transform: scale(.7, 0.7);
+    }
+    50% {
+      transform: scale(.8, 0.8);
+    }
+    60% {
+      transform: scale(.9, 0.9);
+    }
+  }
+  @keyframes slideUp {
+    from {
+      margin-top: 20rem; 
+      opacity: 0;
+    }
+    to {
+      margin-top: 0;
+      opacity: 1; 
+    }
+  }
+  @keyframes slideLeft {
+    from {
+      margin-left: 20rem; 
+      opacity: 0;
+    }
+    to {
+      margin-left: 6.9rem;
+      opacity: 1; 
+    }
+  }
+  @keyframes slideRight {
+    from {
+      margin-right: 20rem; 
+      opacity: 0;
+    }
+    to {
+      margin-right: 6.9rem;
+      opacity: 1; 
+    }
+  }
+  
+  @keyframes myOpacity {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes myRotate {
+    50% {
+      transform: rotateY(360deg);
+    }
+  }
