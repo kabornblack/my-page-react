@@ -1,0 +1,40 @@
+@media screen and (max-width: 1250px) {
+  .heropic {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .heropic {
+    margin-left: 32%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .heropic {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .herosection {
+    margin-top: -4rem;
+    height: 54rem;
+  }
+  .heropic {
+    margin-left: 25%;
+  }
+  .herop2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heropic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    margin: 5rem auto 3rem auto;
+    object-fit: cover;
+    margin-left: 33%;
+  }
+  .headerdiv {
+    display: none;
+  }
+}

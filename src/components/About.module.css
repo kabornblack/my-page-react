@@ -1,0 +1,121 @@
+/* .about_section {
+  height: 43rem;
+  scroll-snap-align: center;
+}
+
+.about_div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  max-width: 40rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  animation: slideUp 3s forwards;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.about_h3 {
+  color: #64748b;
+  text-align: center;
+  text-indent: 5px;
+  margin-top: 5rem;
+  word-spacing: 3px;
+  padding-bottom: 2rem;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  margin-top: -1rem;
+  color: #64748b;
+  align-items: center;
+  max-width: 40rem;
+  font-size: 18px;
+}
+
+.div_sec_p {
+  text-align: justify;
+  word-spacing: 3px;
+  margin-top: 0.5rem;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.me {
+  font-weight: bold;
+  color: #94a3b8;
+}
+
+.image1 {
+  width: 160px;
+  height: 150px;
+  border-radius: 10%;
+  margin: 0 15px 5px 5px;
+  float: left;
+  transition: transform 0.3s ease;
+}
+
+.image1:hover {
+  object-fit: cover;
+  object-position: center 40%;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 1250px) {
+  .about_section {
+    height: 45rem;
+  }
+  .about_h3 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about_section {
+    height: 45rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about_section {
+    height: 40rem;
+    margin-top: -5rem;
+  }
+  .about_h3 {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about_section {
+    height: 40rem;
+    margin-top: -17rem;
+    padding: 1rem;
+  }
+  .image1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about_section {
+    height: 50rem;
+    margin-top: -20rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about_section {
+    height: 60rem;
+    margin-top: -20rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about_section {
+    height: 80rem;
+    margin-top: -20rem;
+  }
+} */

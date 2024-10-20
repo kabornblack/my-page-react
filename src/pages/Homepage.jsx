@@ -1,9 +1,11 @@
-import Header from "../components/Header";
+import Home from "../components/Home";
+import ParticlesComponent from "../components/ParticlesComponent";
 
 function Homepage() {
   return (
     <div>
-      <Header />
+      <ParticlesComponent />
+      <Home />
     </div>
   );
 }
